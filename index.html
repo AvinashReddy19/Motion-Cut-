@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Business Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,900;1,100;1,200;1,300;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>        
+       <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="./index.html"><img src="./images/Logo/01.png" ></a>
+                    </div>
+
+                    <nav id="navlinks" class="nav-links">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="#about-us">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </div>
+
+                <div class="row">
+                    <!------ slideshow container----->
+                    <div class="slideshow-container">
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="./cloud.jpeg" style="width:100%; height:90vh;">
+                            <div class="text">
+                                <h3>We Are TechNex Innovations</h3>
+                                <p>"Navigating the Digital Frontier, One Innovation at a Time"</p>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="digi.jpg" style="width:100%; height:90vh;">
+                            <div class="text">
+                                <h3>We Are TechNex Innovations</h3>
+                                <p>"Navigating the Digital Frontier, One Innovation at a Time"</p>
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="it.png" style="width:100%; height:90vh;">
+                            <div class="text">
+                                <h3>We Are TechNex Innovations</h3>
+                                <p>"Navigating the Digital Frontier, One Innovation at a Time"</p>
+                            </div>
+                        </div>
+                        <!----- Next and Previous Button ----->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br>
+
+                    <!---- The dots/circles-->
+                    <div style="text-align:center;">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>                      
+                    </div>
+                </div>
+            </div>
+       </div> 
+
+        <!---- ABOUT US ------>
+       <div id="about-us">
+            <div class="small-container">
+                <h1 class="small-header">About <span>Us</span></h1>
+                <p>At TechNex Innovations, our vision is to lead the charge in the digital revolution. We see a world where businesses of all sizes can harness technology's power to unlock their full potential. We aim to be at the forefront of this transformation, empowering our clients with cutting-edge solutions that drive growth and success.</p>
+                <p>Our mission is to provide innovative technology and services that transform businesses. We're dedicated to delivering tailored solutions that optimize efficiency, boost profitability, and foster growth. By building enduring relationships with our clients, consistently surpassing their expectations, and staying ahead of technological advancements, we strive to make a lasting impact on the business landscape.</p>
+                <div class="row1">
+                    <div class="col-1">
+                        <h1 class="title">
+                            <span>W</span>e Are Creative And Awesome
+                        </h1>
+                    </div>
+                    <div class="col-1">
+                        <img src="web.jpg">
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <!----Servises ------>
+       <div id="services">
+            <div class="small-container">
+                <h1 class="small-header">
+                    Our Servi<span>ce</span>
+                </h1>                
+                <div class="row1">
+                    <div class="col-2">
+                        <div class="circle">
+                            <i class="fa fa-bar-chart"></i>
+                        </div>
+                        <div class="topic">
+                            <h3>Digital Marketing</h3>
+                            <p>
+                                Our digital marketing experts use SEO, PPC, and social media to boost your online presence and reach.                            </p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="circle">
+                            <i class="fa fa-bank"></i>
+                        </div>
+                        <div class="topic">
+                            <h3>Web Development and Design</h3>
+                            <p>
+                                We create stunning, user-friendly websites that drive engagement and conversions.                            </p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="circle">
+                            <i class="fa fa-cubes"></i>
+                        </div>
+                        <div class="topic">
+                            <h3>Custom Softwere Developer</h3>
+                            <p>
+                                We design and develop tailored software solutions to streamline your business processes.                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="col-2">
+                        <div class="circle">
+                            <i class="fa fa-flask"></i>
+                        </div>
+
+                        <div class="topic">
+                            <h3>Data Analytics</h3>
+                            <p>
+                                Gain valuable insights from your data with our analytics services to make informed decisions                            </p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="circle">
+                            <i class="fa fa-futbol-o"></i>
+                        </div>
+
+                        <div class="topic">
+                            <h3>IT Support and Maintenance</h3>
+                            <p>
+                                Our team keeps your systems secure, up-to-date, and running smoothly.                            </p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="circle">
+                            <i class="fa fa-gears"></i>
+                        </div>
+
+                        <div class="topic">
+                            <h3>Cloud Solutions</h3>
+                            <p>
+                                Take advantage of the cloud with our expert cloud infrastructure and services.                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <!----- contact ----->
+       <div id="contact">
+            <div class="small-container">
+                <h1 class="small-header">Our Contact <span>Us</span></h1>
+
+                <div class="row2">
+                    <div class="contact-form">
+                        <h1 class="small-topic" style="font-size:22px; color:#555;">Contact <span>Info</span></h1>
+                        <div class="info">
+                            <span>
+                                <i class="fa fa-laptop"></i>Address :
+                                <h5>No 123, abc street, India</h5>
+                            </span>
+                        </div>
+
+                        <div class="info">
+                            <span>
+                                <i class="fa fa-envelope"></i>Mail Us :
+                                <h5>abcd@gmail.com</h5>
+                            </span>
+                        </div>
+
+                        <div class="info">
+                            <span>
+                                <i class="fa fa-phone"></i>Phone :
+                                <h5>+91 0123-4567</h5>
+                            </span>
+                        </div>
+
+                        <div class="info">
+                            <span>
+                                <i class="fa fa-comment"></i>Website :
+                                <h5>www.technex.com</h5>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form action="">
+                            <div class="input1">
+                                <input type="text" class="name" placeholder="Name">
+                                <input type="email" placeholder="Email Address">
+                            </div>
+
+                            <div class="input2">
+                                <input type="text" placeholder="Subject">
+                                <textarea rows="8" placeholder="Enter Your Message"></textarea>
+                                <button type="submit">Send Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <!----------- footer ------------>
+
+       <div class="footer">
+            <hr>
+            <div class="footer-content">
+                
+                <div class="col-7">
+                    <div class="social">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+       </div>
+</body>
+</html>
